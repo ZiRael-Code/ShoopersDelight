@@ -1,5 +1,6 @@
 package africa.semicolon.shoppersDelight.services;
 
+import africa.semicolon.shoppersDelight.dtos.request.AddProductRequest;
 import africa.semicolon.shoppersDelight.dtos.request.StoreRegistrationRequest;
 import africa.semicolon.shoppersDelight.dtos.response.StoreRegistrationResponse;
 import org.junit.jupiter.api.Test;
@@ -26,6 +27,8 @@ public class StoreServiceTest {
 
     @Test
     void addProductTest(){
+        AddProductRequest request = new AddProductRequest();
+
 
     }
 
